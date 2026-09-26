@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { useAuth } from '../Context/AuthContext.jsx'
+import { useAuth } from '../context/AuthContext.jsx'
 import { BrandMark } from './Navbar.jsx'
 
 const ICON_PATHS = {
@@ -321,3 +321,4 @@ export default function SidebarNav({ theme = 'owner', items, badges = {}, childr
     </div>
   )
 }
+

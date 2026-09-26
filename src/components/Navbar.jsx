@@ -63,3 +63,4 @@ export default function Navbar({ variant = 'player' }) {
     </header>
   )
 }
+

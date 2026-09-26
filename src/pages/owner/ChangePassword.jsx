@@ -4,7 +4,7 @@ import Button from '../../components/Button.jsx'
 import Navbar from '../../components/Navbar.jsx'
 import { Icon } from '../../components/SidebarNav.jsx'
 import { useToast } from '../../components/Toast.jsx'
-import { useAuth } from '../../Context/AuthContext.jsx'
+import { useAuth } from '../../context/AuthContext.jsx'
 import { authApi, getErrorMessage } from '../../services/api.js'
 
 function passwordRules(value) {
@@ -197,3 +197,4 @@ export default function ChangePassword() {
     </div>
   )
 }
+

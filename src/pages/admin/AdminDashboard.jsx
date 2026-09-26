@@ -6,7 +6,7 @@ import GrowthChart from '../../components/GrowthChart.jsx'
 import KpiCard from '../../components/KpiCard.jsx'
 import { Icon, PageHeader } from '../../components/SidebarNav.jsx'
 import StatusPill from '../../components/StatusPill.jsx'
-import { useAuth } from '../../Context/AuthContext.jsx'
+import { useAuth } from '../../context/AuthContext.jsx'
 import {
   adminApi,
   formatDateTime,
@@ -279,3 +279,4 @@ export default function AdminDashboard() {
     </>
   )
 }
+

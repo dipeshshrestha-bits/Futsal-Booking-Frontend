@@ -79,3 +79,4 @@ export default function FutsalCard({ futsal, to }) {
     </Link>
   )
 }
+

@@ -7,7 +7,7 @@ import KpiCard from '../../components/KpiCard.jsx'
 import { Icon, PageHeader } from '../../components/SidebarNav.jsx'
 import StatusPill from '../../components/StatusPill.jsx'
 import { useToast } from '../../components/Toast.jsx'
-import { useAuth } from '../../Context/AuthContext.jsx'
+import { useAuth } from '../../context/AuthContext.jsx'
 import {
   formatDay,
   formatNPR,
@@ -293,3 +293,4 @@ export default function OwnerDashboard() {
     </>
   )
 }
+

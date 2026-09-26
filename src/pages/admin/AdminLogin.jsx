@@ -3,7 +3,7 @@ import { Navigate, useLocation, useNavigate, useSearchParams } from 'react-route
 import Button from '../../components/Button.jsx'
 import Navbar from '../../components/Navbar.jsx'
 import { Icon } from '../../components/SidebarNav.jsx'
-import { useAuth } from '../../Context/AuthContext.jsx'
+import { useAuth } from '../../context/AuthContext.jsx'
 import { authApi, getErrorMessage } from '../../services/api.js'
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -132,3 +132,4 @@ export default function AdminLogin() {
     </div>
   )
 }
+

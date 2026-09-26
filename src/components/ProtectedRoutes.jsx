@@ -1,5 +1,5 @@
 import { Navigate, Outlet, useLocation } from 'react-router-dom'
-import { useAuth } from '../Context/AuthContext.jsx'
+import { useAuth } from '../context/AuthContext.jsx'
 
 /**
  * area: 'owner' | 'admin'
@@ -32,3 +32,4 @@ export default function ProtectedRoute({ area, allowWhenMustChangePassword = fal
 
   return children ?? <Outlet />
 }
+
