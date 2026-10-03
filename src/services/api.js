@@ -5,7 +5,7 @@ import axios from 'axios'
 /* ------------------------------------------------------------------ */
 
 export const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || 'https://dipeshstha-001-site1.etempurl.com/api'
+  import.meta.env.VITE_API_BASE_URL || 'https://futsal-001-site1.ltempurl.com/api'
 
 const STORAGE_KEYS = {
   owner: {
